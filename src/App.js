@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="personalitytest-app/"
+          path="/personalitytest-app/"
           element={
             <Container className="pt-5 px-0">
               <img src={require("pages/contents/img/mainGraphic.png")} style={{ height: "80px" }}></img>
@@ -68,8 +68,8 @@ function App() {
             </Container>
           }
         ></Route>
-        <Route path="personalitytest-app/question" element={<Question></Question>}></Route>
-        <Route path="personalitytest-app/result/:id" element={<Result />}></Route>
+        <Route path="/question" element={<Question></Question>}></Route>
+        <Route path="/result/:id" element={<Result />}></Route>
       </Routes>
     </div>
   );
