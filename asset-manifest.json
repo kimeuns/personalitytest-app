@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/personalitytest-app%20/static/css/main.2f62ecd1.css",
+    "main.js": "/personalitytest-app%20/static/js/main.d1144c3b.js",
+    "static/js/787.0c3f432a.chunk.js": "/personalitytest-app%20/static/js/787.0c3f432a.chunk.js",
+    "index.html": "/personalitytest-app%20/index.html",
+    "main.2f62ecd1.css.map": "/personalitytest-app%20/static/css/main.2f62ecd1.css.map",
+    "main.d1144c3b.js.map": "/personalitytest-app%20/static/js/main.d1144c3b.js.map",
+    "787.0c3f432a.chunk.js.map": "/personalitytest-app%20/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f62ecd1.css",
+    "static/js/main.d1144c3b.js"
+  ]
+}
