@@ -3,7 +3,7 @@ import { Container, Table } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, useParams } from 'react-router-dom'
 import styled from 'styled-components';
-import dataList from "./contents/data";
+import dataList from "pages/contents/data";
 
 function Result(){
     const { id } = useParams();

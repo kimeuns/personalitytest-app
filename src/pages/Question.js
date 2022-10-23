@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 import "../App.css";
 
-import questions from './contents/question'
-import dataList from "./contents/data";
+import questions from 'pages/contents/question'
+import dataList from "pages/contents/data";
 
 // import ButtonComponent from "../components/ButtonComponent";
 

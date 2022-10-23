@@ -1,13 +1,11 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap'
-import Question from "./pages/Question";
-import Result from "./pages/Result";
+import Question from "pages/Question";
+import Result from "pages/Result";
 
 import { Routes, Route, Link, useNavigate, Outlet} from "react-router-dom";
 import styled from "styled-components";
-
-// import Graphic from './img/mainGraphic.png'
 
 const Name = styled.p`
   font-family: var(--bs-body-font-family);
@@ -33,10 +31,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/"
+          path="personalitytest-app/"
           element={
             <Container className="pt-5 px-0">
-              <img src="img/mainGraphic.png" style={{ height: "80px" }}></img>
+              <img src={require("pages/contents/img/mainGraphic.png")} style={{ height: "80px" }}></img>
               <Name>
                 라이프 인 서울
                 <br />
@@ -50,10 +48,10 @@ function App() {
                 너랑 잘 맞는 동네 알랴쥼
               </p>
               <div className="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-                {/* <mainImg alt="mainImg" className="img-fluid"></mainImg> */}
+                
                 <img
-                  src="img/main.png"
-                  alt="mainImg"
+                  src={require("pages/contents/img/main.png")}
+                  alt="mainimg"
                   className="img-fluid"
                   style={{ width: "100%" }}
                 ></img>
@@ -70,8 +68,8 @@ function App() {
             </Container>
           }
         ></Route>
-        <Route path="/question" element={<Question></Question>}></Route>
-        <Route path="/result/:id" element={<Result />}></Route>
+        <Route path="personalitytest-app/question" element={<Question></Question>}></Route>
+        <Route path="personalitytest-app/result/:id" element={<Result />}></Route>
       </Routes>
     </div>
   );
